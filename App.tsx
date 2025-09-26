@@ -51,7 +51,9 @@ const App: React.FC = () => {
             </div>
           </section>
 
-          <section className="mt-16">
+          <Footer />
+
+          <section>
             <InputForm
               inputText={inputText}
               setInputText={setInputText}
@@ -79,7 +81,6 @@ const App: React.FC = () => {
             )}
           </div>
         </main>
-        <Footer />
       </div>
     </div>
   );

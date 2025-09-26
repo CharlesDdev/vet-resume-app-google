@@ -38,7 +38,8 @@ const Footer: React.FC = () => {
   ];
 
   return (
-    <footer className="py-16 sm:py-24 mt-12 border-t border-white/10">
+    <section className="py-16 sm:py-24 my-16 border-y border-white/10">
+      <h2 className="text-3xl font-bold text-center mb-12 text-light-tan">How It Works</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
         {steps.map((step, index) => (
           <div key={index} className="flex flex-col items-center">
@@ -50,7 +51,7 @@ const Footer: React.FC = () => {
           </div>
         ))}
       </div>
-    </footer>
+    </section>
   );
 };
 
